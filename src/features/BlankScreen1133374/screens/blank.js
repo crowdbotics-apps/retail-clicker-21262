@@ -27,6 +27,22 @@ export class _Blank extends React.Component {
   render = () => (
     <View style={styles.View_1}>
       <Text style={styles.Text_2}>HappyChewy Inc.</Text>
+      <Image
+        resizeMode="center"
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/Chewy.jpg"
+        }}
+        style={styles.Image_21}
+      />
+      <Image
+        resizeMode="cover"
+        source={{
+          uri:
+            "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/Chewy.jpg"
+        }}
+        style={styles.Image_3}
+      />
     </View>
   )
 }
